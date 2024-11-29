@@ -114,9 +114,9 @@ h2.secondsection {
 }
 
 
-ul, p {
+p.secondsection {
     font-family: 'Playfair Display', serif;
-    font-size: 1rem;
+    font-size: medium;
 }
 .travel-form {
     padding: 5px;
@@ -149,7 +149,7 @@ ul, p {
     margin: 0 auto; 
     justify-content: center;
     gap: 10px;
-    flex-wrap: nowrap; 
+    flex-wrap: wrap; 
 }
 
 .review {
