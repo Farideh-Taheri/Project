@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+<section class="hero-section">
+    <div class="navBar">
+        <ul class="NavItem">
+         <li><a href="project.html">Home</a></li>
+         <li><a href="AboutUs.html">About</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="relevant sites.html">More Resources</a></li>
+        </ul>
+    </div>
+    <div class="hero-text">
+        <h1 class="main">Plan your dream vacation with us!</h1>
+    </div>
+</section>
+
+<section class="secondsection">
+    <h2 class="secondsection">From Sunny Beaches to Snowy Retreats,<br>We'll Match Your Vibe To The Weather!</h2>
+    <p>Discover destinations with the perfect weather from today until 5 days later!</p>
+    <div class="travel-form-container">
+        <form class="travel-form"   id="travel-form">
+            
+            <label for="city-dropdown">Select a City:</label>
+            <select id="city-dropdown">
+                <option value="">Loading...</option>
+            </select>
+            
+            <label for="start-date">Travel Date:</label>
+            <input type="date" id="start-date" name="start-date" min="2024-11-30" max="2024-12-05" required>
+
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <div id="weather-info" class="weather-info"></div> 
+    <div class="image-grid">
+        <img src="images/camp.jpg" alt="Scenic Location" class="grid-image">
+        <img src="images/desert.png" alt="Reception Area" class="grid-image">
+        <img src="images/ski.jpg" alt="Ski adventure" class="grid-image">
+    </div>
+</section>
+
+<section class="thirdsection">
+    <h2>Reviews from our Travelers</h2>
+    <div class="reviews">
+        <div class="review">
+            <p>"The trip to Bali was absolutely magical. The team made sure everything was seamless!"</p>
+            <h4>- Sarah L.</h4>
+        </div>
+        <div class="review">
+            <p>"Loved the ski retreat in Aspen! Perfect recommendation for winter enthusiasts."</p>
+            <h4>- James P.</h4>
+        </div>
+        <div class="review">
+            <p>"Amazing support and great destination suggestions. Highly recommend!"</p>
+            <h4>- Emily T.</h4>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer">
+        <a href="AboutUs.html" class="footerbutton">About Us</a>
+        <a href="Contact.html" class="footerbutton">Contact</a>
+        <a href="relevant sites.html" class="footerbutton">More Resources</a>
+    </div>
+</footer>
+
+<script src="Finalproject.js"></script>
+</body>
+</html>
