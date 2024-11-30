@@ -28,15 +28,15 @@
     <div class="travel-form-container">
         <form class="travel-form"   id="travel-form">
             
-            <label for="city-dropdown">Select a City:</label>
-            <select id="city-dropdown">
+            <label for="city-dropdown" class="form-label">Select a City:</label>
+            <select id="city-dropdown"class="form-input">
                 <option value="">Loading...</option>
             </select>
             
-            <label for="start-date">Travel Date:</label>
-            <input type="date" id="start-date" name="start-date" min="2024-11-30" required>
+            <label for="start-date" class="form-label">Travel Date:</label>
+            <input type="date" id="start-date" name="start-date" class="form-input" min="2024-11-30" required>
 
-            <button type="submit">Search</button>
+            <button type="submit" class="search-button">Search</button>
         </form>
     </div>
     <div id="weather-info" class="weather-info"></div> 
